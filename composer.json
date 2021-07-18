@@ -1,0 +1,32 @@
+{
+  "name": "chaos/service",
+  "description": "Pre-built service base classes, more frameworks to come soon",
+  "keywords": [
+    "vietnam",
+    "service"
+  ],
+  "homepage": "https://github.com/ntd1712",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ntd1712",
+      "email": "ntd1712@mail.com"
+    }
+  ],
+  "require": {
+    "chaos/messenger": "*",
+    "chaos/repository": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chaos\\Service\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
